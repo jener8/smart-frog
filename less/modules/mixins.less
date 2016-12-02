@@ -1,0 +1,14 @@
+
+/* Size and Align Logos */
+
+.brandlogo(@iconwidth; @iconheight){
+   width: @iconwidth;
+   height: @iconheight;
+   .navbar-vertical-align(@iconheight);
+}
+
+.navWidth-large-desktop(){
+   padding-right: 0;
+   width: ((@mainWrapWidth-desktop - @container-large-desktop)/2)+@container-large-desktop;
+
+}
