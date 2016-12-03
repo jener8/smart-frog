@@ -1,3 +1,42 @@
-.jumbotron{
-  background-image: url(assets/img/wohnzimmer@1x.jpg);
+    /* Jumbtron */
+
+.jumbotron {
+    position: relative;
+    .overlay-wrap {
+        position: absolute;
+        width: 100%;
+        .power-text {
+            width: 50%;
+        }
+        /* Strombox */
+        .strom-box {
+            position: absolute;
+            width: @panel-width;
+            top: 0;
+            right: 0;
+            .panel-img-row {
+                height: @panel-height;
+                .panel-col {
+                    .panel-div {
+                        display: inline-block;
+                        vertical-align:middle;
+                        &:nth-child(1){
+                            margin-left: 20px;
+                            margin-right: 25px;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+/* Tarif */
+
+#tarif{
+    background-color: @tarifsectionBg;
+    padding-bottom: 50px;
 }

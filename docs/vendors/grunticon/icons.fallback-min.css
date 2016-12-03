@@ -8,3 +8,13 @@
 	background-image: url('png/shell-logo-pic.png');
 	background-repeat: no-repeat;
 }
+
+.icon-plug {
+	background-image: url('png/plug.png');
+	background-repeat: no-repeat;
+}
+
+.icon-plus {
+	background-image: url('png/plus.png');
+	background-repeat: no-repeat;
+}

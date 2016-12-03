@@ -1,32 +1,3 @@
-/* Size and Align Logos */
-.jumbotron {
-  background-image: url();
-}
-.navbar {
-  background-color: #fff;
-}
-.navbar .container {
-  padding-right: 0;
-  width: 1286px;
-}
-.navbar .container .icon-smartfrog-logo {
-  width: 235px;
-  height: 44px;
-  margin-top: 38.5px;
-  margin-bottom: 38.5px;
-}
-.navbar .container .icon-shell-logo-pic {
-  width: 170px;
-  height: 86px;
-  margin-top: 17.5px;
-  margin-bottom: 17.5px;
-}
-.jumbotron {
-  background-image: url(assets/img/wohnzimmer@1x.jpg);
-}
-.mainWrap {
-  max-width: 1402px;
-}
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -4966,9 +4937,9 @@ a.badge:focus {
   margin-left: 3px;
 }
 .jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
   color: inherit;
   background-color: #eeeeee;
 }
@@ -4977,7 +4948,7 @@ a.badge:focus {
   color: inherit;
 }
 .jumbotron p {
-  margin-bottom: 15px;
+  margin-bottom: 0;
   font-size: 21px;
   font-weight: 200;
 }
@@ -4995,13 +4966,13 @@ a.badge:focus {
 }
 @media screen and (min-width: 768px) {
   .jumbotron {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 0;
+    padding-right: 0;
   }
   .jumbotron h1,
   .jumbotron .h1 {
@@ -6752,4 +6723,65 @@ button.close {
     display: none !important;
   }
 }
+.jumbotron {
+  background-image: url();
+}
+.navbar {
+  background-color: #fff;
+}
+.navbar .container {
+  padding-right: 0;
+  width: 1286px;
+}
+.navbar .container .icon-smartfrog-logo {
+  width: 235px;
+  height: 44px;
+  margin-top: 38.5px;
+  margin-bottom: 38.5px;
+}
+.navbar .container .icon-shell-logo-pic {
+  width: 170px;
+  height: 86px;
+  margin-top: 17.5px;
+  margin-bottom: 17.5px;
+}
+/* Jumbtron */
+.jumbotron {
+  position: relative;
+}
+.jumbotron .overlay-wrap {
+  position: absolute;
+  width: 100%;
+  /* Strombox */
+}
+.jumbotron .overlay-wrap .power-text {
+  width: 50%;
+}
+.jumbotron .overlay-wrap .strom-box {
+  position: absolute;
+  width: 416px;
+  top: 0;
+  right: 0;
+}
+.jumbotron .overlay-wrap .strom-box .panel-img-row {
+  height: 180px;
+}
+.jumbotron .overlay-wrap .strom-box .panel-img-row .panel-col .panel-div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.jumbotron .overlay-wrap .strom-box .panel-img-row .panel-col .panel-div:nth-child(1) {
+  margin-left: 20px;
+  margin-right: 25px;
+}
+/* Tarif */
+#tarif {
+  background-color: #f7d117;
+  padding-bottom: 50px;
+}
+.mainWrap {
+  max-width: 1402px;
+  min-height: 100vh;
+}
+/* Size and Align Logos */
 /*# sourceMappingURL=style.css.map */
