@@ -17,3 +17,40 @@
    margin-top: ((@panel-height - @icon-height) / 2);
    margin-bottom: ((@panel-height - @icon-height) / 2);
 }
+
+
+/*oop mixens*/
+
+.sf-border-bottom(@sf-style; @sf-width; @borderColor){
+   border-bottom-style: @sf-style;
+   border-bottom-width: @sf-width;
+   border-bottom-color: @borderColor;
+};
+
+
+.sf-padding(@sf-paddingtop; @sf-paddingright; @sf-paddingbottom; @sf-paddingleft;){
+   padding-top: @sf-paddingtop;
+   padding-right: @sf-paddingright;
+   padding-bottom: @sf-paddingbottom;
+   padding-left: @sf-paddingleft;;
+}
+
+
+.sf-margin(@sf-margintop; @sf-marginright; @sf-marginbottom; @sf-marginleft;){
+   margin-top: @sf-margintop;
+   margin-right: @sf-marginright;
+   margin-bottom: @sf-marginbottom;
+   margin-left: @sf-marginleft;;
+}
+
+
+.sf-background( @sf-bg-repeat; @sf-bg-attachment; @sf-bg-position-x; @sf-bg-position-y; @sf-bg-origin; @sf-bg-clip; @sf-bg-color; @sf-bg-size){
+   background-repeat: @sf-bg-repeat;
+   background-attachment: @sf-bg-attachment;
+   background-position-x: @sf-bg-position-x;
+   background-position-y: @sf-bg-position-y;
+   background-origin: @sf-bg-origin;
+   background-clip: @sf-bg-clip;
+   background-color: @sf-bg-color;
+   background-size: @sf-bg-size;
+}

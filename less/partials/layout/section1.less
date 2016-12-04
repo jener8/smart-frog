@@ -1,0 +1,127 @@
+.static-overlay-wrap {
+    position: relative;
+    top: -100%;
+    left: 0px;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    .headline_inner_wrap {
+        max-width: 1175px;
+        width: 1170px;
+        .sf-padding(0px, 0px, 0px, 0px);
+        .center-block();
+        .headline-wrap {
+            position: absolute;
+            top: 50px;
+            background-color: @sf-transparent-white;
+            .border-top-radius(7px);
+            .border-bottom-radius(7px);
+            .sf-padding(17px, 25px, 20px, 25px);
+            width: 585px;
+            height: 147px;
+        }
+    }
+    /* handy */
+    .hand-wrap-container {
+        position: absolute;
+        top: 231px;
+        left: 0px;
+        .hand-wrap {
+            position: absolute;
+            width: 358px;
+            height: 299px;
+            background-image: @handy-sf-image;
+            .sf-background(no-repeat, initial, initial, initial, initial, initial, initial, contain);
+            z-index: @hand-wrap-zindex;
+        }
+        .screen {
+            position: absolute;
+            top: 75px;
+            left: 60px;
+            width: 243px;
+            height: 136px;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            z-index: @screen-zindex;
+            .item {
+                background-image: @screen-item-sf-image;
+                .sf-background(no-repeat, initial, initial, initial, initial, initial, initial, cover);
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 243px;
+                height: 136px;
+            }
+        }
+    }
+    .cam-registerForm-wrap {
+        position: absolute;
+        bottom: 0px;
+        left: auto;
+        right: 500px;
+        width: calc(201px + 242px);
+        height: calc(277px + 80px) ;
+        /* camera */
+        .cam-wrap {
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+            right: auto;
+            z-index: @cam-wrap-zindex;
+            .hw-cam {
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+                width: 195px;
+                height: 250px;
+                background-image: @cam-sf-image;
+                .sf-background(no-repeat, initial, initial, initial, initial, initial, initial, contain);
+            }
+        }
+        .registerFormWrap {
+            position: absolute;
+            right: 45px;
+            top: 40px;
+            width: 250px;
+            z-index: 1;
+            .round-element {
+                margin-bottom: initial;
+                .sf-border-bottom(none;
+                initial;
+                initial);
+                .inner-wrap {
+                    .sf-margin(initial, initial, initial, initial);
+                    .round_bg {
+                        .border-top-radius(100%);
+                        .border-bottom-radius(100%);
+                        .sf-background(initial, initial, initial, initial, initial, initial, initial, initial);
+                        background-color: @sf-deep-red;
+                        .sf-padding(20px, 20px, 20px, 20px);
+                        width: 220px;
+                        height: 220px;
+                    }
+                }
+            }
+        }
+    }
+    /* Strombox */
+    .strom-box {
+        position: absolute;
+        width: @panel-width;
+        top: 0;
+        right: 0;
+        .panel-img-row {
+            height: @panel-height;
+            .panel-col {
+                .panel-div {
+                    display: inline-block;
+                    vertical-align: middle;
+                    &:nth-child(1) {
+                        margin-left: 20px;
+                        margin-right: 25px;
+                    }
+                }
+            }
+        }
+    }
+}

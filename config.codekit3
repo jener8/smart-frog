@@ -584,7 +584,7 @@
 		"oA": 0,
 		"oAP": "\/docs\/assets\/img\/cam-1x.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/docs\/assets\/img\/cam-2x.png": {
 		"ft": 32768,
@@ -602,13 +602,25 @@
 		"oF": 0,
 		"opt": 1
 		},
-	"\/docs\/assets\/img\/checkmark.gif": {
-		"ft": 4194304,
-		"iS": 1254,
-		"oA": 0,
-		"oAP": "\/docs\/assets\/img\/checkmark.gif",
+	"\/docs\/assets\/img\/checkmark-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/docs\/assets\/img\/checkmark-01.svg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/docs\/assets\/img\/checkmark.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/docs\/assets\/img\/checkmark.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/docs\/assets\/img\/Phone-1x.png": {
 		"ft": 32768,
@@ -616,7 +628,7 @@
 		"oA": 0,
 		"oAP": "\/docs\/assets\/img\/Phone-1x.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/docs\/assets\/img\/Phone-2x.png": {
 		"ft": 32768,
@@ -654,6 +666,30 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/docs\/assets\/img\/screen-item-1x.png": {
+		"ft": 32768,
+		"iS": 86244,
+		"oA": 0,
+		"oAP": "\/docs\/assets\/img\/screen-item-1x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/docs\/assets\/img\/screen-item-2x.png": {
+		"ft": 32768,
+		"iS": 146899,
+		"oA": 0,
+		"oAP": "\/docs\/assets\/img\/screen-item-2x.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/docs\/assets\/img\/screen-item-3x.png": {
+		"ft": 32768,
+		"iS": 317710,
+		"oA": 0,
+		"oAP": "\/docs\/assets\/img\/screen-item-3x.png",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/docs\/assets\/img\/wohnzimmer-1x.jpg": {
 		"ft": 16384,
 		"iS": 67951,
@@ -682,6 +718,112 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/docs\/index.html",
+		"oF": 0
+		},
+	"\/docs\/vendors\/fontello-12f48889\/css\/animation.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/docs\/vendors\/fontello-12f48889\/css\/animation-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/docs\/vendors\/fontello-12f48889\/css\/fontello-codes.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/docs\/vendors\/fontello-12f48889\/css\/fontello-codes-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/docs\/vendors\/fontello-12f48889\/css\/fontello-embedded.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/docs\/vendors\/fontello-12f48889\/css\/fontello-embedded-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/docs\/vendors\/fontello-12f48889\/css\/fontello-ie7-codes.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/docs\/vendors\/fontello-12f48889\/css\/fontello-ie7-codes-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/docs\/vendors\/fontello-12f48889\/css\/fontello-ie7.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/docs\/vendors\/fontello-12f48889\/css\/fontello-ie7-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/docs\/vendors\/fontello-12f48889\/css\/fontello.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/docs\/vendors\/fontello-12f48889\/css\/fontello-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/docs\/vendors\/fontello-12f48889\/demo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/vendors\/fontello-12f48889\/demo.html",
+		"oF": 0
+		},
+	"\/docs\/vendors\/fontello-12f48889\/font\/fontello.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/vendors\/fontello-12f48889\/font\/fontello.eot",
+		"oF": 0
+		},
+	"\/docs\/vendors\/fontello-12f48889\/font\/fontello.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/docs\/vendors\/fontello-12f48889\/font\/fontello.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/docs\/vendors\/fontello-12f48889\/font\/fontello.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/vendors\/fontello-12f48889\/font\/fontello.ttf",
+		"oF": 0
+		},
+	"\/docs\/vendors\/fontello-12f48889\/font\/fontello.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/vendors\/fontello-12f48889\/font\/fontello.woff",
+		"oF": 0
+		},
+	"\/docs\/vendors\/fontello-12f48889\/font\/fontello.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/vendors\/fontello-12f48889\/font\/fontello.woff2",
+		"oF": 0
+		},
+	"\/docs\/vendors\/fontello-12f48889\/README.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/vendors\/fontello-12f48889\/README.txt",
 		"oF": 0
 		},
 	"\/docs\/vendors\/grunticon\/grunticon.loader.js": {
@@ -2062,23 +2204,6 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/less\/modules\/colors.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/less\/modules\/colors.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
 	"\/less\/modules\/images.less": {
 		"aP": 0,
 		"bl": 0,
@@ -2106,6 +2231,91 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/less\/modules\/mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/less\/modules\/variables\/colors.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/modules\/variables\/colors.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/less\/modules\/variables\/component-variables.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/modules\/variables\/component-variables.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/less\/modules\/variables\/nav-variables.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/modules\/variables\/nav-variables.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/less\/modules\/variables\/responsive-variables.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/modules\/variables\/responsive-variables.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/less\/modules\/z-index.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/modules\/z-index.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -2174,6 +2384,40 @@
 		"ma": 1,
 		"oA": 1,
 		"oAP": "\/less\/partials\/components\/figures.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/less\/partials\/components\/jumbotron.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/partials\/components\/jumbotron.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/less\/partials\/components\/panels.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/partials\/components\/panels.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -2283,23 +2527,6 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/less\/partials\/layout\/header.less": {
-		"aP": 0,
-		"bl": 0,
-		"dJ": 0,
-		"ft": 1,
-		"ie": 1,
-		"iI": 0,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "\/less\/partials\/layout\/header.css",
-		"oF": 0,
-		"oS": 0,
-		"rU": 0,
-		"sI": 0,
-		"sM": 0,
-		"sU": 0
-		},
 	"\/less\/partials\/layout\/layout.less": {
 		"aP": 0,
 		"bl": 0,
@@ -2334,7 +2561,7 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/less\/partials\/layout\/section.less": {
+	"\/less\/partials\/layout\/section1.less": {
 		"aP": 0,
 		"bl": 0,
 		"dJ": 0,
@@ -2343,7 +2570,7 @@
 		"iI": 0,
 		"ma": 1,
 		"oA": 1,
-		"oAP": "\/less\/partials\/layout\/section.css",
+		"oAP": "\/less\/partials\/layout\/section1.css",
 		"oF": 0,
 		"oS": 0,
 		"rU": 0,
@@ -2351,13 +2578,22 @@
 		"sM": 0,
 		"sU": 0
 		},
-	"\/less\/partials\/layout\/wohnzimmer@1x.jpg": {
-		"ft": 16384,
-		"iS": 183465,
-		"oA": 0,
-		"oAP": "\/less\/partials\/layout\/wohnzimmer@1x.jpg",
+	"\/less\/partials\/layout\/section2.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/partials\/layout\/section2.css",
 		"oF": 0,
-		"opt": 0
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
 		},
 	"\/less\/partials\/reset.less": {
 		"aP": 0,

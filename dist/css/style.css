@@ -3,8 +3,21 @@
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-/*  Nav */
-/* Main Body */
+/*colors*/
+/* Bootstrap Overwrite*/
+/*Smartfrog*/
+/*  Nav-variables */
+/*bootstrap overwrite*/
+/*component-variables*/
+/*jumbotron*/
+/*bootstrap overwrite*/
+/*responsive-variables*/
+/*bootstrap overwrite*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+body,
+html {
+  width: 100vw;
+}
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
@@ -6723,8 +6736,292 @@ button.close {
     display: none !important;
   }
 }
+div,
+i {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+* {
+  box-sizing: border-box;
+}
+/*@googlefonts*/
+/* Icon Font setup in project */
+body {
+  font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+  line-height: 26px;
+}
+/*Headline */
+.headline-wrap h3 {
+  font-size: 49.4px;
+  margin: 0;
+  color: #f18713;
+  font-weight: 500;
+  line-height: 60px;
+}
+/*registerFormWrap */
+.registerFormWrap {
+  text-align: center;
+}
+.registerFormWrap .round_inner_wrap {
+  position: relative;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.7;
+}
+.registerFormWrap .round_inner_wrap h2 {
+  font-weight: 600;
+}
+.registerFormWrap .round_inner_wrap .icon-checkmark {
+  color: #ffffff;
+  font-size: 13px;
+  left: -2px;
+  position: relative;
+  font-weight: bold;
+  top: -2px;
+}
+.registerFormWrap .round_inner_wrap span {
+  font-weight: 500;
+  left: 4px;
+  position: relative;
+  display: inline-block;
+  left: 6px;
+}
+/* checkmark */
+@font-face {
+  font-family: 'fontello';
+  src: url('../../../docs/vendors/fontello-12f48889/font/fontello.eot?1253447');
+  src: url('../../../docs/vendors/fontello-12f48889/font/fontello.eot?1253447#iefix') format('embedded-opentype'), url('../../../docs/vendors/fontello-12f48889/font/fontello.woff2?1253447') format('woff2'), url('../../../docs/vendors/fontello-12f48889/font/fontello.woff?1253447') format('woff'), url('../../../docs/vendors/fontello-12f48889/font/fontello.ttf?1253447') format('truetype'), url('../../../docs/vendors/fontello-12f48889/font/fontello.svg?1253447#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+@font-face {
+font-family: 'fontello';
+src: url('../font/fontello.svg?1253447#fontello') format('svg');
+}
+}
+*/
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+.icon-checkmark:before {
+  content: '\e800';
+}
+/* '' */
 .jumbotron {
-  background-image: url();
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #e7e7e7;
+}
+/*panels*/
+/*bootstrap overwrite*/
+.static-overlay-wrap {
+  position: relative;
+  top: -100%;
+  left: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  /* handy */
+  /* Strombox */
+}
+.static-overlay-wrap .headline_inner_wrap {
+  max-width: 1175px;
+  width: 1170px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.static-overlay-wrap .headline_inner_wrap .headline-wrap {
+  position: absolute;
+  top: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  padding-top: 17px;
+  padding-right: 25px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  width: 585px;
+  height: 147px;
+}
+.static-overlay-wrap .hand-wrap-container {
+  position: absolute;
+  top: 231px;
+  left: 0px;
+}
+.static-overlay-wrap .hand-wrap-container .hand-wrap {
+  position: absolute;
+  width: 358px;
+  height: 299px;
+  background-image: url(../../../docs/assets/img/Phone-1x.png);
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  background-size: contain;
+  z-index: 10;
+}
+.static-overlay-wrap .hand-wrap-container .screen {
+  position: absolute;
+  top: 75px;
+  left: 60px;
+  width: 243px;
+  height: 136px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  z-index: 1;
+}
+.static-overlay-wrap .hand-wrap-container .screen .item {
+  background-image: url(../../../docs/assets/img/screen-item-1x.png);
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 243px;
+  height: 136px;
+}
+.static-overlay-wrap .cam-registerForm-wrap {
+  position: absolute;
+  bottom: 0px;
+  left: auto;
+  right: 500px;
+  width: calc(443px);
+  height: calc(357px);
+  /* camera */
+}
+.static-overlay-wrap .cam-registerForm-wrap .cam-wrap {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: auto;
+  z-index: 2;
+}
+.static-overlay-wrap .cam-registerForm-wrap .cam-wrap .hw-cam {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 195px;
+  height: 250px;
+  background-image: url(../../../docs/assets/img/cam-1x.png);
+  background-repeat: no-repeat;
+  background-attachment: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  background-size: contain;
+}
+.static-overlay-wrap .cam-registerForm-wrap .registerFormWrap {
+  position: absolute;
+  right: 45px;
+  top: 40px;
+  width: 250px;
+  z-index: 1;
+}
+.static-overlay-wrap .cam-registerForm-wrap .registerFormWrap .round-element {
+  margin-bottom: initial;
+  border-bottom-style: none;
+  border-bottom-width: initial;
+  border-bottom-color: initial;
+}
+.static-overlay-wrap .cam-registerForm-wrap .registerFormWrap .round-element .inner-wrap {
+  margin-top: initial;
+  margin-right: initial;
+  margin-bottom: initial;
+  margin-left: initial;
+}
+.static-overlay-wrap .cam-registerForm-wrap .registerFormWrap .round-element .inner-wrap .round_bg {
+  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  background-repeat: initial;
+  background-attachment: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: initial;
+  background-size: initial;
+  background-color: #e20613;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  width: 220px;
+  height: 220px;
+}
+.static-overlay-wrap .strom-box {
+  position: absolute;
+  width: 380px;
+  top: 0;
+  right: 0;
+}
+.static-overlay-wrap .strom-box .panel-img-row {
+  height: 180px;
+}
+.static-overlay-wrap .strom-box .panel-img-row .panel-col .panel-div {
+  display: inline-block;
+  vertical-align: middle;
+}
+.static-overlay-wrap .strom-box .panel-img-row .panel-col .panel-div:nth-child(1) {
+  margin-left: 20px;
+  margin-right: 25px;
+}
+/* Tarif */
+#tarif {
+  background-color: #f7d117;
+  padding-bottom: 50px;
 }
 .navbar {
   background-color: #fff;
@@ -6745,43 +7042,11 @@ button.close {
   margin-top: 17.5px;
   margin-bottom: 17.5px;
 }
-/* Jumbtron */
-.jumbotron {
-  position: relative;
-}
-.jumbotron .overlay-wrap {
-  position: absolute;
-  width: 100%;
-  /* Strombox */
-}
-.jumbotron .overlay-wrap .power-text {
-  width: 50%;
-}
-.jumbotron .overlay-wrap .strom-box {
-  position: absolute;
-  width: 416px;
-  top: 0;
-  right: 0;
-}
-.jumbotron .overlay-wrap .strom-box .panel-img-row {
-  height: 180px;
-}
-.jumbotron .overlay-wrap .strom-box .panel-img-row .panel-col .panel-div {
-  display: inline-block;
-  vertical-align: middle;
-}
-.jumbotron .overlay-wrap .strom-box .panel-img-row .panel-col .panel-div:nth-child(1) {
-  margin-left: 20px;
-  margin-right: 25px;
-}
-/* Tarif */
-#tarif {
-  background-color: #f7d117;
-  padding-bottom: 50px;
-}
 .mainWrap {
   max-width: 1402px;
   min-height: 100vh;
 }
 /* Size and Align Logos */
+/*oop mixens*/
+/*z-index*/
 /*# sourceMappingURL=style.css.map */
