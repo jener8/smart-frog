@@ -13,10 +13,11 @@
         .headline-wrap {
             position: absolute;
             top: 50px;
+            left: 85px;
             background-color: @sf-transparent-white;
             .border-top-radius(7px);
             .border-bottom-radius(7px);
-            .sf-padding(17px, 25px, 20px, 25px);
+            .sf-padding(16px, 25px, 20px, 25px);
             width: 585px;
             height: 147px;
         }
@@ -60,7 +61,7 @@
         left: auto;
         right: 500px;
         width: calc(201px + 242px);
-        height: calc(277px + 80px) ;
+        height: calc(277px + 80px);
         /* camera */
         .cam-wrap {
             position: absolute;
@@ -108,20 +109,58 @@
     .strom-box {
         position: absolute;
         width: @panel-width;
-        top: 0;
-        right: 0;
+        top: 50px;
+        right: 85px;
+
+        .strom-box-panel-body {
+            background-color: @sf-yellow;
+        }
+
         .panel-img-row {
             height: @panel-height;
+            padding-top: 25px;
+            margin-bottom: 30px;
             .panel-col {
-                .panel-div {
-                    display: inline-block;
+                .strom-box-item {
                     vertical-align: middle;
-                    &:nth-child(1) {
-                        margin-left: 20px;
-                        margin-right: 25px;
-                    }
+                }
+                .strom-box-image {
+                    background-image: @box-sf-image;
+                    .sf-background(no-repeat, initial, initial, initial, initial, initial, initial, contain);
+                    height: 160px;
+                    width: 150px;
+                    display: inline-block;
+                    margin-right: 10px;
                 }
             }
         }
+
+        .strom-box-footer{
+            padding-bottom: 25px;
+
+        .strom-box-footer-feature {
+            .strom-box-footer-textbox {
+                i {
+                    float: left;
+                    padding-top: 10px;
+                    color: @sf-deep-red;
+
+                }
+
+            }
+            .strom-box-footer-panel{
+                width: 300px;
+                text-align: left;
+                float: right;
+                background-color: transparent;
+                margin-bottom: 0;
+
+
+                span{
+                    color: @sf-deep-red;
+                }
+            }
+        }
+    }
     }
 }

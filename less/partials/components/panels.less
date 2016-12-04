@@ -2,3 +2,17 @@
 /*bootstrap overwrite*/
 @panel-height: 180px;
 @panel-width: 380px;
+@panel-border-radius: @border-radius-base;
+@border-radius-base: 7px;
+@panel-footer-bg:@sf-white;
+
+.panel,
+.panel-body,
+.panel-footer{
+  border: none;
+  box-shadow: none;
+}
+
+.panel-body{
+  .border-top-radius(7px);
+}

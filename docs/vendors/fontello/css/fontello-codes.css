@@ -1,0 +1,4 @@
+
+.icon-checkmark:before { content: '\e800'; } /* '' */
+.icon-plug:before { content: '\e801'; } /* '' */
+.icon-plus:before { content: '\e802'; } /* '' */
