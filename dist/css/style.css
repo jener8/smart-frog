@@ -6697,7 +6697,9 @@ i {
 h3 {
   line-height: 58px;
 }
+@sf-large-screens ~"only screen and (min-width: 1325px)";
 @sf-small-screens ~"only screen and (max-width: 1324px)";
+/*body*/
 body,
 html {
   min-width: 781px;
@@ -6711,6 +6713,7 @@ html {
     left: 20px!important;
   }
 }
+/*Section1 cam*/
 @media only screen and (max-width: 1367px) {
   .cam-registerForm-wrap {
     right: 410px!important;
@@ -6721,6 +6724,7 @@ html {
     right: 10px!important;
   }
 }
+/*Section1 App*/
 @media only screen and (max-width: 877px) {
   .app {
     bottom: 100px!important;
@@ -6737,6 +6741,7 @@ html {
     height: 250px!important;
   }
 }
+/*Section1 Background*/
 @media only screen and (max-width: 877px) {
   .jumbotron-background {
     height: 800px!important;
@@ -6745,6 +6750,7 @@ html {
     height: 800px!important;
   }
 }
+/*Section1 Box*/
 .mb {
   display: none;
 }
@@ -6787,6 +6793,7 @@ html {
     padding-left: 20px!important;
   }
 }
+/*Section2 Forms*/
 @media only screen and (max-width: 1270px) {
   .form-group {
     display: block!important;
@@ -6913,8 +6920,9 @@ body {
   font-size: 13px;
 }
 /*footer*/
-.footer-bottom-ul {
+.footer-bottom-ul li a {
   font-size: 20px;
+  color: #7a7a7a;
 }
 .jumbotron {
   border-bottom-style: solid;
@@ -7079,7 +7087,6 @@ src: url('../font/fontello.svg?67936650#fontello') format('svg');
   position: absolute;
   width: 388px;
   height: 329px;
-  background-image: url(../../../docs/assets/img/Phone-1x.png);
   background-repeat: no-repeat;
   background-attachment: initial;
   background-position-x: initial;
@@ -7101,7 +7108,6 @@ src: url('../font/fontello.svg?67936650#fontello') format('svg');
   z-index: 10;
 }
 .static-overlay-wrap .hand-wrap-container .screen .item {
-  background-image: url(../../../docs/assets/img/screen-item-1x.jpg);
   background-repeat: no-repeat;
   background-attachment: initial;
   background-position-x: initial;
@@ -7146,7 +7152,6 @@ src: url('../font/fontello.svg?67936650#fontello') format('svg');
   left: 0px;
   width: 225px;
   height: 280px;
-  background-image: url(../../../docs/assets/img/cam-1x.png);
   background-repeat: no-repeat;
   background-attachment: initial;
   background-position-x: initial;
@@ -7218,7 +7223,6 @@ src: url('../font/fontello.svg?67936650#fontello') format('svg');
   vertical-align: middle;
 }
 .static-overlay-wrap .strom-box .panel-img-row .panel-col .strom-box-image {
-  background-image: url(../../../docs/assets/img/box-1x.png);
   background-repeat: no-repeat;
   background-attachment: initial;
   background-position-x: initial;
@@ -7259,7 +7263,6 @@ src: url('../font/fontello.svg?67936650#fontello') format('svg');
   opacity: 0.6;
   height: 640px;
   width: 100%;
-  background-image: url(../../../docs/assets/img/wohnzimmer-1x.jpg);
   background-repeat: no-repeat;
   background-attachment: initial;
   background-position-x: initial;
@@ -7330,7 +7333,7 @@ src: url('../font/fontello.svg?67936650#fontello') format('svg');
   padding-right: 20px;
 }
 .navbar .container #shell-logo .icon-shell-logo-pic {
-  background-image: url(../../../docs/assets/brand/shell/logo/shell-logo-pic-01.svg);
+  background-image: url(http://jennifersimonds.com/images/shell-logo-pic-01.svg);
   width: 170px;
   height: 86px;
   margin-top: 17.5px;
@@ -7344,11 +7347,17 @@ src: url('../font/fontello.svg?67936650#fontello') format('svg');
   cursor: default;
 }
 /*footer*/
-.navbar-nav {
+#footer {
+  border-top: solid 2px #e7e7e7;
+  border-left: solid 2px #e7e7e7;
+  border-right: solid 2px #e7e7e7;
+}
+#footer ul {
   width: 100%;
+  background-color: #ffffff;
   text-align: center;
 }
-.navbar-nav > li {
+#footer ul > li {
   float: none;
   display: inline-block;
 }
@@ -7370,6 +7379,81 @@ html {
 .foggy {
   opacity: 0.6;
   z-index: -1;
+}
+/*Lokal*/
+@media only screen and (min-width: 320px) {
+  .hand-wrap {
+    background-image: url(http://jennifersimonds.com/images/Phone-1x.png);
+  }
+  .item {
+    background-image: url(http://jennifersimonds.com/images/screen-item-1x.jpg);
+  }
+  .strom-box-image {
+    background-image: url(http://jennifersimonds.com/images/box-1x.png);
+  }
+  .hw-cam {
+    background-image: url(http://jennifersimonds.com/images/cam-1x.png);
+  }
+  .jumbotron-background:after {
+    background-image: url(http://jennifersimonds.com/images/wohnzimmer-1x.jpg);
+  }
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min-device-pixel-ratio: 2) and (min-width: 320px), only screen and (min-resolution: 192dpi) and (min-width: 320px), only screen and (min-resolution: 2dppx) and (min-width: 320px) {
+  .hand-wrap {
+    background-image: url(http://jennifersimonds.com/images/Phone-1x.png);
+  }
+  .item {
+    background-image: url(http://jennifersimonds.com/images/screen-item-1x.jpg);
+  }
+  .strom-box-image {
+    background-image: url(http://jennifersimonds.com/images/box-1x.png);
+  }
+  .hw-cam {
+    background-image: url(http://jennifersimonds.com/images/cam-1x.png);
+  }
+  .jumbotron-background:after {
+    background-image: url(http://jennifersimonds.com/images/wohnzimmer-1x.jpg);
+  }
+}
+@media only screen and (min-width: 700px) {
+  /* Medium screen, non-retina */
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 700px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 700px), only screen and (min-device-pixel-ratio: 2) and (min-width: 700px), only screen and (min-resolution: 192dpi) and (min-width: 700px), only screen and (min-resolution: 2dppx) and (min-width: 700px) {
+  .hand-wrap {
+    background-image: url(.http://jennifersimonds.com/images/Phone-2x.png);
+  }
+  .item {
+    background-image: url(http://jennifersimonds.com/images/screen-item-2x.jpg);
+  }
+  .hw-cam {
+    background-image: url(http://jennifersimonds.com/images/cam-2x.png);
+  }
+  .strom-box-image {
+    background-image: url(http://jennifersimonds.com/images//box-2x.png);
+  }
+  .jumbotron-background:after {
+    background-image: url(http://jennifersimonds.com/images/wohnzimmer-2x.jpg);
+  }
+}
+@media only screen and (min-width: 1300px) {
+  /* Large screen, non-retina */
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1300px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 1300px), only screen and (min-device-pixel-ratio: 2) and (min-width: 1300px), only screen and (min-resolution: 192dpi) and (min-width: 1300px), only screen and (min-resolution: 2dppx) and (min-width: 1300px) {
+  .hand-wrap {
+    background-image: url(http://jennifersimonds.com/images/Phone-3x.png);
+  }
+  .item {
+    background-image: url(http://jennifersimonds.com/images/screen-item-3x.jpg);
+  }
+  .hw-cam {
+    background-image: url(http://jennifersimonds.com/images/cam-3x.png);
+  }
+  .strom-box-image {
+    background-image: url(http://jennifersimonds.com/images/box-3x.png);
+  }
+  .jumbotron-background:after {
+    background-image: url(http://jennifersimonds.com/images/wohnzimmer-3x.jpg);
+  }
 }
 /*z-index*/
 /*responsive-variables*/

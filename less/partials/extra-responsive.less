@@ -1,164 +1,154 @@
+@sf-large-screens ~"only screen and (min-width: 1325px)";
 @sf-small-screens ~"only screen and (max-width: 1324px)";
-
 @sf-tablet: ~"only screen and (max-width: 1367px)";
-
 @sf-smartphone: ~"only screen and (max-width: 1270px)";
-
 @sf-handy: ~"only screen and (max-width: 877px)";
-
 @sf-sx-handy: ~"only screen and (max-width: 781px)";
 
+/*body*/
+
 body,
-html
-{
+html {
     min-width: 781px;
 }
-.navbar{
-    @media @sf-tablet{
-        width: 100vw!important;
 
-        #sf-logo{
+.navbar {
+    @media @sf-tablet {
+        width: 100vw!important;
+        #sf-logo {
             position: absolute!important;
             left: 20px!important;
         }
     }
 }
-.cam-registerForm-wrap{
-    @media @sf-tablet{
+
+
+/*Section1 cam*/
+
+.cam-registerForm-wrap {
+    @media @sf-tablet {
         right: 410px!important;
     }
-    @media @sf-smartphone{
+    @media @sf-smartphone {
         right: 10px!important;
     }
 }
 
-.app{
 
+/*Section1 App*/
 
-
-    @media @sf-handy{
+.app {
+    @media @sf-handy {
         bottom: 100px!important;
         left: 10px!important;
-
-        .app-feature{
+        .app-feature {
             display: block!important;
             margin: 0!important;
-                height: 100px!important;
+            height: 100px!important;
             .icon-google-app,
-            .icon-apple-app
-            {
+            .icon-apple-app {
                 width: 250px!important;
                 height: 250px!important;
             }
-
         }
     }
 }
 
-.jumbotron-background{
-    @media @sf-handy{
+
+/*Section1 Background*/
+
+.jumbotron-background {
+    @media @sf-handy {
         height: 800px!important;
-        &:after{
+        &:after {
             height: 800px!important;
         }
     }
 }
 
-.mb{
-display: none;
 
-  @media @sf-smartphone{
+/*Section1 Box*/
+
+.mb {
+    display: none;
+    @media @sf-smartphone {
         display: initial!important;
         width: 100vw!important;
         top: 500px!important;
-      .strom-box-footer{
-          display: inline-block;
-          width: 100%;
-          margin-top: 50px;
-          .strom-box-footer-panel{
-
-              width: 550px;
-              display: inline-block;
-          }
-            .icon-checkmark{
+        .strom-box-footer {
+            display: inline-block;
+            width: 100%;
+            margin-top: 50px;
+            .strom-box-footer-panel {
+                width: 550px;
+                display: inline-block;
+            }
+            .icon-checkmark {
                 color: @sf-deep-red;
                 font-size: 25px!Important;
-
             }
-
-
-      }
-
+        }
     }
 }
 
-
-.desktop{
-    @media @sf-smartphone{
+.desktop {
+    @media @sf-smartphone {
         display: none;
-
     }
 }
 
-
-.strom-box-panel-body{
-    @media @sf-smartphone{
+.strom-box-panel-body {
+    @media @sf-smartphone {
         background-color: @sf-yellow;
         padding-top: 50px;
         padding-bottom: 50px;
         text-align: center;
         margin-bottom: 20px;
-
     }
 }
 
-
-#plus{
-    @media @sf-smartphone{
+#plus {
+    @media @sf-smartphone {
         padding-left: 20px!important;
     }
 }
 
-.form-group{
-    @media @sf-smartphone{
+
+/*Section2 Forms*/
+
+.form-group {
+    @media @sf-smartphone {
         display: block!important;
         width: 600px!important;
-        .form-control{
+        .form-control {
             height: 80px!important;
             width: 600px!important;
             margin-bottom: 40px;
             font-size: 28px!important;
         }
-        .icon-drop-arrow{
+        .icon-drop-arrow {
             right: 20px !important;
             top: 40px!important;
         }
-
     }
 }
 
-.btn{
-    @media @sf-smartphone{
+.btn {
+    @media @sf-smartphone {
         padding: 20px 80px 20px 80px!important;
         font-size: 30px!important;
     }
 }
 
-
 .tarif-form-dropdown-list {
-
-
-    @media @sf-smartphone{
+    @media @sf-smartphone {
         width: 600px!important;
-       left: 0!important;
+        left: 0!important;
         right: 0!important;
         top: 79px!important;
-
-        ul{
-        width: 600px!important;
-        background-color: @sf-white;
+        ul {
+            width: 600px!important;
+            background-color: @sf-white;
         }
     }
 }
-
-

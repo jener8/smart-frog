@@ -1,15 +1,129 @@
-
-.foggy{
-opacity: 0.6;
+.foggy {
+    opacity: 0.6;
     z-index: -1;
 }
-@cam-sf-image: url(../../../docs/assets/img/cam-1x.png);
-@handy-sf-image: url(../../../docs/assets/img/Phone-1x.png);
-@screen-item-sf-image: url(../../../docs/assets/img/screen-item-1x.jpg);
-@box-sf-image: url(../../../docs/assets/img/box-1x.png);
-@jumbotron-bg-image: url(../../../docs/assets/img/wohnzimmer-1x.jpg);
-@shell-logo-image: url(../../../docs/assets/brand/shell/logo/shell-logo-pic-01.svg);
 
 
 
+@cam-sf-image-1x: url(http://jennifersimonds.com/images/cam-1x.png);
+@cam-sf-image-2x: url(http://jennifersimonds.com/images/cam-2x.png);
+@cam-sf-image-3x: url(http://jennifersimonds.com/images/cam-3x.png);
+@handy-sf-image-1x: url(http://jennifersimonds.com/images/Phone-1x.png);
+@handy-sf-image-2x: url(.http://jennifersimonds.com/images/Phone-2x.png);
+@handy-sf-image-3x: url(http://jennifersimonds.com/images/Phone-3x.png);
+@screen-item-sf-image-1x: url(http://jennifersimonds.com/images/screen-item-1x.jpg);
+@screen-item-sf-image-2x: url(http://jennifersimonds.com/images/screen-item-2x.jpg);
+@screen-item-sf-image-3x: url(http://jennifersimonds.com/images/screen-item-3x.jpg);
+@box-sf-image-1x: url(http://jennifersimonds.com/images/box-1x.png);
+@box-sf-image-2x: url(http://jennifersimonds.com/images//box-2x.png);
+@box-sf-image-3x: url(http://jennifersimonds.com/images/box-3x.png);
+@jumbotron-bg-image-1x: url(http://jennifersimonds.com/images/wohnzimmer-1x.jpg);
+@jumbotron-bg-image-2x: url(http://jennifersimonds.com/images/wohnzimmer-2x.jpg);
+@jumbotron-bg-image-3x: url(http://jennifersimonds.com/images/wohnzimmer-3x.jpg);
+@shell-logo-image: url(http://jennifersimonds.com/images/shell-logo-pic-01.svg);
 
+
+/*Lokal*/
+//@cam-sf-image-1x: url(../../../docs/assets/img/cam-1x.png);
+//@cam-sf-image-2x: url(../../../docs/assets/img/cam-2x.png);
+//@cam-sf-image-3x: url(../../../docs/assets/img/cam-3x.png);
+//@handy-sf-image-1x: url(../../../docs/assets/img/Phone-1x.png);
+//@handy-sf-image-2x: url(../../../docs/assets/img/Phone-2x.png);
+//@handy-sf-image-3x: url(../../../docs/assets/img/Phone-3x.png);
+//@screen-item-sf-image-1x: url(../../../docs/assets/img/screen-item-1x.jpg);
+//@screen-item-sf-image-2x: url(../../../docs/assets/img/screen-item-2x.jpg);
+//@screen-item-sf-image-3x: url(../../../docs/assets/img/screen-item-3x.jpg);
+//@box-sf-image-1x: url(../../../docs/assets/img/box-1x.png);
+//@box-sf-image-2x: url(../../../docs/assets/img/box-2x.png);
+//@box-sf-image-3x: url(../../../docs/assets/img/box-3x.png);
+//@jumbotron-bg-image-1x: url(../../../docs/assets/img/wohnzimmer-1x.jpg);
+//@jumbotron-bg-image-2x: url(../../../docs/assets/img/wohnzimmer-2x.jpg);
+//@jumbotron-bg-image-3x: url(../../../docs/assets/img/wohnzimmer-3x.jpg);
+//@shell-logo-image: url(../../../docs/assets/brand/shell/logo/shell-logo-pic-01.svg);
+@media only screen and (min-width: 320px) {
+    .hand-wrap {
+        background-image: @handy-sf-image-1x
+    }
+    .item {
+        background-image: @screen-item-sf-image-1x
+    }
+    .strom-box-image {
+        background-image: @box-sf-image-1x
+    }
+    .hw-cam {
+        background-image: @cam-sf-image-1x
+    }
+    .jumbotron-background {
+        &:after {
+            background-image: @jumbotron-bg-image-1x
+        }
+    }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px), only screen and ( min--moz-device-pixel-ratio: 2) and (min-width: 320px), only screen and ( -o-min-device-pixel-ratio: 2/1) and (min-width: 320px), only screen and ( min-device-pixel-ratio: 2) and (min-width: 320px), only screen and ( min-resolution: 192dpi) and (min-width: 320px), only screen and ( min-resolution: 2dppx) and (min-width: 320px) {
+    .hand-wrap {
+        background-image: @handy-sf-image-1x
+    }
+    .item {
+        background-image: @screen-item-sf-image-1x
+    }
+    .strom-box-image {
+        background-image: @box-sf-image-1x
+    }
+    .hw-cam {
+        background-image: @cam-sf-image-1x
+    }
+    .jumbotron-background {
+        &:after {
+            background-image: @jumbotron-bg-image-1x
+        }
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    /* Medium screen, non-retina */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 700px), only screen and ( min--moz-device-pixel-ratio: 2) and (min-width: 700px), only screen and ( -o-min-device-pixel-ratio: 2/1) and (min-width: 700px), only screen and ( min-device-pixel-ratio: 2) and (min-width: 700px), only screen and ( min-resolution: 192dpi) and (min-width: 700px), only screen and ( min-resolution: 2dppx) and (min-width: 700px) {
+    .hand-wrap {
+        background-image: @handy-sf-image-2x
+    }
+    .item {
+        background-image: @screen-item-sf-image-2x
+    }
+    .hw-cam {
+        background-image: @cam-sf-image-2x
+    }
+    .strom-box-image {
+        background-image: @box-sf-image-2x
+    }
+    .jumbotron-background {
+        &:after {
+            background-image: @jumbotron-bg-image-2x
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    /* Large screen, non-retina */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1300px), only screen and ( min--moz-device-pixel-ratio: 2) and (min-width: 1300px), only screen and ( -o-min-device-pixel-ratio: 2/1) and (min-width: 1300px), only screen and ( min-device-pixel-ratio: 2) and (min-width: 1300px), only screen and ( min-resolution: 192dpi) and (min-width: 1300px), only screen and ( min-resolution: 2dppx) and (min-width: 1300px) {
+    .hand-wrap {
+        background-image: @handy-sf-image-3x
+    }
+    .item {
+        background-image: @screen-item-sf-image-3x
+    }
+    .hw-cam {
+        background-image: @cam-sf-image-3x
+    }
+    .strom-box-image {
+        background-image: @box-sf-image-3x
+    }
+    .jumbotron-background {
+        &:after {
+            background-image: @jumbotron-bg-image-3x
+        }
+    }
+}
