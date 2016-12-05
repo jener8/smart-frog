@@ -8,6 +8,9 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
+
+
+
     <link rel="icon" href="../../favicon.ico">
 
     <title>Jumbotron Template for Bootstrap</title>
@@ -26,6 +29,11 @@
     <script>
         grunticon(["vendors/grunticon/icons.data.svg.css", "vendors/grunticon/icons.data.png.css", "vendors/grunticon/icons.fallback.css"]);
     </script>
+
+
+    <script src="https://use.typekit.net/qzl1lfo.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -52,24 +60,22 @@
 
 
 
-                <div class="navbar-right" id="shell-logo">
-                    <ul class="nav navbar-nav">
-                        <li class="shell-logo-text"><a class="inactiveLink"><div></div>SHELL PRIVATENERGIE<div class="icon-shell-logo-pic"></div</a></li>
-<
-                    </ul>
+                <div class="navbar-header  navbar-right" id="shell-logo">
+                    <div class="shell-logo-text">SHELL PRIVATENERGIE</div>
+                    <div class="icon-shell-logo-pic"></div>
                 </div>
 
             </div>
         </nav>
 
         <!-- Main jumbotron for a primary marketing message or call to action -->
-        <div class="jumbotron">
+        <div class="jumbotron section1">
             <div class="static-overlay-wrap">
 
-                    <div class="headline_inner_wrap">
+                    <div class="headline-inner-wrap">
                         <div class="headline-wrap" style="opacity: 1;">
-                            <h3>Power ohne Ende und mehr
-                                <br>Sicherheit für Ihr Zuhause!</h3>
+                            <div id="headline-lead">Power ohne Ende und mehr
+                                Sicherheit für Ihr Zuhause!</div>
                         </div>
                     </div>
 
@@ -87,6 +93,17 @@
                     </div>
             </div>
                     <!--/ handy-col-->
+
+                <div class="app">
+                    <div class="app-feature" id="app-app-store">
+                        <div class="icon-apple-app" style="width: 135px; height: 135px;" ></div>
+                    </div>
+
+                    <div class="app-feature" id="app-google-store">
+                        <div class="icon-google-app" style="width: 135px; height: 135px;" ></div>
+                </div>
+                </div>
+
                 <div class="cam-registerForm-wrap">
                     <div class="cam-wrap" style="display: block;">
                         <div class="cam-wrap-hw-cam hw-cam" style="display: block;">
@@ -96,24 +113,24 @@
                     <div class="registerFormWrap" style="display: block;">
                         <div class="registerFormWrap-round-element round-element">
                             <div class="registerFormWrap-inner-wrap inner-wrap">
-                                <div class="registerFormWrap-round_bg round_bg">
-                                    <div class="registerFormWrap-round-inner-wrap round_inner_wrap">
+                                <div class="registerFormWrap-round_bg round_bg" >
+                                    <div class="registerFormWrap-round-inner-wrap round-inner-wrap" align="left">
                                         <h2>Strom inkl.</h2>
                                         <div class="registerFormWrap-features first features">
-                                            <i class="registerFormWrap-icon demo-icon icon-checkmark"></i>
-                                            <span class="text">
-                                                Smartfrog App
-                                            </span>
-                                        </div>
-                                        <div class="registerFormWrap-features sec features">
                                             <i class="registerFormWrap-icon demo-icon icon-checkmark"></i>
                                             <span class="text">
                                                 Smartfrog Cam
                                             </span>
                                         </div>
+                                        <div class="registerFormWrap-features sec features">
+                                            <i class="registerFormWrap-icon demo-icon icon-checkmark"></i>
+                                            <span class="text">
+                                                Smartfrog App
+                                            </span>
+                                        </div>
                                         <div class="registerFormWrap-features third features">
                                             <i class="registerFormWrap-icon demo-icon icon-checkmark"></i>
-                                            <span>
+                                            <span class="text">
                                                 Video-Speicher
                                             </span>
                                         </div>
@@ -125,7 +142,7 @@
 
                 </div><!-- /cam-registerForm-wrap -->
 
-                <div class="strom-box">
+                <div class="strom-box desktop">
                     <div class="panel strom-box-panel clearfix">
 
                             <div class="strom-box-panel-body panel-body">
@@ -148,20 +165,20 @@
                                 <div class="strom-box-footer" align="center">
                                     <div class="strom-box-footer-feature" >
                                         <div class="strom-box-footer-textbox clearfix">
-                                            <i class="strom-box-footer-icon demo-icon icon-checkmark">&#xe802;</i>
+                                            <i class="strom-box-footer-icon demo-icon icon-checkmark"></i>
                                             <div class="strom-box-footer-panel panel panel-default" >
                                                 <div class="strom-box-footer-panel-body panel-body">
-                                                    Inkl. <span>Sicherheitspaket</span><br>im Wert von <span>150,- €</span>
+                                                    Inkl. <span><b>Sicherheitspaket</b></span><br>im Wert von <span><b>150,- €</b></span>
                                     </div>
                                     </div>
                                     </div>
                                 </div>
                                     <div class="strom-box-footer-feature">
                                         <div class="strom-box-footer-textbox clearfix">
-                                        <i class="strom-box-footer-icon demo-icon icon-checkmark">&#xe802;</i>
+                                        <i class="strom-box-footer-icon demo-icon icon-checkmark"></i>
                                             <div class="strom-box-footer-panel panel panel-default" >
                                                 <div class="strom-box-footer-panel-body panel-body">
-                                                    Jahre <span>Preisgarantie</span>
+                                                    Jahre <span><b>Preisgarantie</b></span>
                                                 </div>
                                             </div>
                                         </div>
@@ -171,79 +188,171 @@
 
                     </div>
                 </div><!--/ strom-box-->
-                <img src="assets/img/wohnzimmer-1x.jpg" class="img-responsive wohnzimmer" srcset="assets/img/wohnzimmer-2x.jpg, assets/img/wohnzimmer-3x.jpg" alt="Smartfrog wohnzimmer">
+
+                <div class="jumbotron-background">
+                        <div class="background"></div>
+                </div>
+
+
             </div> <!--/ overlay-wrap container -->
+        </div>  <!-- /Jumbotron section1-->
+        <div class="strom-box mb">
+            <div class="panel strom-box-panel clearfix">
 
-        </div>  <!-- /Jumbotron -->
+                <div class="strom-box-panel-body panel-body">
+                    Strom &amp; Sicheres Zuhause 24
+                </div>
+                <div class="strom-box-pane-footer panel-footer">
+                    <div class= "strom-box-panel-img-row panel-img-row row">
+                        <div class="strom-box-panel-panel-col panel-col">
+                            <div align="center">
+                                <i class="strom-box-item strom-box-icon demo-icon icon-plug" id="plug"></i>
+                                <i class="strom-box-item strom-box-icon demo-icon icon-plus" id="plus"></i>
 
-    <!-- tarif section -->
-    <div class="container-fluid" id="tarif">
-        <h4>Berechnen Sie Ihren individuellen Tarif:</h4>
-        <form class="form-inline">
-            <div class="form-group">
-                <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+                                <img class="strom-box-item-img" src="assets/img/box-1x.png" alt="box">
+
+                            </div>
+
+
+                        </div>
+                    </div><!--/ panel-img-row-->
+                    <div class="strom-box-footer" align="center">
+                        <div class="strom-box-footer-feature" >
+                            <div class="strom-box-footer-textbox clearfix">
+
+
+                                <div class="strom-box-footer-panel panel panel-default" >
+                                    <div class="strom-box-footer-panel-body panel-body" align="left">
+                                        <i class="strom-box-footer-icon demo-icon icon-checkmark first-checkmark"></i> Inkl. <span><b>Sicherheitspaket</b></span>im Wert von <span><b>150,- €</b></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="strom-box-footer-feature">
+                            <div class="strom-box-footer-textbox clearfix">
+
+                                <div class="strom-box-footer-panel panel panel-default"  align="left">
+                                    <div class="strom-box-footer-panel-body panel-body">
+                                        <i class="strom-box-footer-icon demo-icon icon-checkmark"></i>Jahre <span><b>Preisgarantie</b></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <div class="form-group">
-
-                <select class="form-control" placeholder="Password">
-                    <option>egerg</option>
-                    <option>regerge</option>
-                    <option>ergererg</option>
-                    <option>regerg</option>
-                    <option>reger</option>
-                </select>
+        </div><!--/ strom-box-->
+    <!-- tarif section2 -->
+    <div class="container-fluid section2" id="tarif" align="center">
+        <div class="tarif-text"><h4>Berechnen Sie Ihren individuellen Tarif:</h4></div>
+        <form class="form-inline tarif-form">
+            <div class="tarif-form-form-group form-group">
+                <label class="sr-only" for="exampleInputPlz">Ihre Postleitzahl</label>
+                <input type="text" class="form-control" id="exampleInputPlz" placeholder="Ihre Postleitzahl">
             </div>
-            <button type="submit" class="btn btn-default">Sign in</button>
+            <div class="tarif-form-form-group form-group ">
+                <label class="sr-only" for="exampleInputJahresverbrauch">Ihr Jahresverbrauch</label>
+                <!--Dropdown list-->
+                <div class="tarif-form-dropdown-list display-list">
+                    <ul>
+                        <li>Individueller Verbrauch</li>
+                        <li>1500 kWh <img src="assets/img/ico-1ico-.svg" alt="shell" align="right"></li>
+                        <li>2500 kWh <img src="assets/img/ico-2ico-.svg" alt="shell" align="right"></li>
+                        <li>3000 kWh <img src="assets/img/ico-3ico-.svg" alt="shell" align="right"></li>
+                        <li>4000 kWh <img src="assets/img/ico-4ico-.svg" alt="shell" align="right"></li>
+                        <li>6000 kWh <img src="assets/img/ico-5ico-.svg" alt="shell" align="right"></li>
+                    </ul>
+
+                </div>
+
+                <div class="icon-drop-arrow" style="width: 16px; height: 10px;" ></div>
+                <input type="text" class="form-control sf-dropdown" id="exampleInputJahresverbrauch" placeholder="Ihr Jahresverbrauch">
+            </div>
+            <button type="submit" class="tarif-form-form-group btn btn-default">Jetzt Tarif berechnen</button>
         </form>
     </div>
-        <div class="container-fluid" id="text">
+        <!-- /tarif section2-->
+        <!-- test section3-->
+        <div class="container-fluid" id="text-section" align="center">
         <p> Shell PrivatEnergie (Strom- und Gasprodukte für Privathaushalte) ist ein Angebot der First Utility GmbH. First Utility GmbH nutzt Shell Marken unter Lizenzvereinbarung.</p>
-        <hr>
     </div>
-<div>
-    <nav class="navbar navbar-default navbar-bottom">
-        <div class="container">
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Link</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">One more separated link</a></li>
-                        </ul>
+        <!-- /test section3-->
+
+
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Brand</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">Link</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Link</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+<!--
+    <nav class="navbar navbar-default navbar-bottom footer-nav nav-justified" >
+        <div class="container navbottom-container footer-container">
+            <div class="collapse navbar-collapse footer-collapse" id="bs-example-navbar-collapse-1 ">
+                <ul class="nav navbar-nav footer-bottom-ul" >
+                    <li><a href="#">Über uns</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                    <li><a href="#">Energiemix </a></li>
+                    <li><a href="#">AGB</a></li>
+                    <li><a href="#">Datenschutz </a></li>
+                    <li><a href="#">Impressum</a></li>
                     </li>
                 </ul>
-                <form class="navbar-form navbar-left">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </form>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">Link</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
+
+            </div> /.navbar-collapse
         </div>
     </nav>
-</div>
+-->
+<
+
     <!-- /mainWrap -->
     <!-- Bootstrap core JavaScript
 ================================================== -->
@@ -253,6 +362,7 @@
         window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
     </script>
     <script src="../../dist/js/bootstrap.min.js"></script>
+        <script src="../../dist/js/sf.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>

@@ -118,6 +118,24 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/dist\/js\/sf-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/dist\/js\/sf-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/dist\/js\/sf.js": {
+		"ft": 64,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "\/dist\/js\/sf-min.js",
+		"oF": 1,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/docs\/_includes\/components\/alerts.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -504,6 +522,16 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/docs\/assets\/brand\/shell\/logo\/shell-logo-pic-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/docs\/assets\/brand\/shell\/logo\/shell-logo-pic-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/docs\/assets\/brand\/shell\/logo\/shell-logo-pic.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -553,6 +581,16 @@
 		"oAP": "\/docs\/assets\/css\/src\/pygments-manni-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/docs\/assets\/img\/apple-app.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/docs\/assets\/img\/apple-app.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/docs\/assets\/img\/box-1x.png": {
 		"ft": 32768,
@@ -612,6 +650,76 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/docs\/assets\/img\/drop-arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/docs\/assets\/img\/drop-arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/docs\/assets\/img\/google-app.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/docs\/assets\/img\/google-app.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/docs\/assets\/img\/ico-1ico-.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/docs\/assets\/img\/ico-1ico-.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/docs\/assets\/img\/ico-2ico-.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/docs\/assets\/img\/ico-2ico-.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/docs\/assets\/img\/ico-3ico-.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/docs\/assets\/img\/ico-3ico-.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/docs\/assets\/img\/ico-4ico-.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/docs\/assets\/img\/ico-4ico-.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/docs\/assets\/img\/ico-5ico-.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/docs\/assets\/img\/ico-5ico-.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/docs\/assets\/img\/Phone-1x.png": {
 		"ft": 32768,
 		"iS": 55111,
@@ -656,29 +764,29 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/docs\/assets\/img\/screen-item-1x.png": {
-		"ft": 32768,
-		"iS": 86244,
+	"\/docs\/assets\/img\/screen-item-1x.jpg": {
+		"ft": 16384,
+		"iS": 12372,
 		"oA": 0,
-		"oAP": "\/docs\/assets\/img\/screen-item-1x.png",
+		"oAP": "\/docs\/assets\/img\/screen-item-1x.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/docs\/assets\/img\/screen-item-2x.png": {
-		"ft": 32768,
-		"iS": 146899,
+	"\/docs\/assets\/img\/screen-item-2x.jpg": {
+		"ft": 16384,
+		"iS": 19137,
 		"oA": 0,
-		"oAP": "\/docs\/assets\/img\/screen-item-2x.png",
+		"oAP": "\/docs\/assets\/img\/screen-item-2x.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/docs\/assets\/img\/screen-item-3x.png": {
-		"ft": 32768,
-		"iS": 317710,
+	"\/docs\/assets\/img\/screen-item-3x.jpg": {
+		"ft": 16384,
+		"iS": 37669,
 		"oA": 0,
-		"oAP": "\/docs\/assets\/img\/screen-item-3x.png",
+		"oAP": "\/docs\/assets\/img\/screen-item-3x.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/docs\/assets\/img\/wohnzimmer-1x.jpg": {
 		"ft": 16384,
@@ -686,7 +794,7 @@
 		"oA": 0,
 		"oAP": "\/docs\/assets\/img\/wohnzimmer-1x.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/docs\/assets\/img\/wohnzimmer-2x.jpg": {
 		"ft": 16384,
@@ -694,7 +802,7 @@
 		"oA": 0,
 		"oAP": "\/docs\/assets\/img\/wohnzimmer-2x.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/docs\/assets\/img\/wohnzimmer-3x.jpg": {
 		"ft": 16384,
@@ -702,7 +810,7 @@
 		"oA": 0,
 		"oAP": "\/docs\/assets\/img\/wohnzimmer-3x.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/docs\/index.html": {
 		"ft": 8192,
@@ -824,6 +932,12 @@
 		"oAP": "\/docs\/vendors\/fontello\/README.txt",
 		"oF": 0
 		},
+	"\/docs\/vendors\/futurapt\/futura-t-bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/docs\/vendors\/futurapt\/futura-t-bold.ttf",
+		"oF": 0
+		},
 	"\/docs\/vendors\/grunticon\/grunticon.loader.js": {
 		"ft": 64,
 		"mi": 1,
@@ -906,6 +1020,14 @@
 		"iS": 766,
 		"oA": 0,
 		"oAP": "\/docs\/vendors\/grunticon\/png\/plus.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/docs\/vendors\/grunticon\/png\/shell-logo-pic-01.png": {
+		"ft": 32768,
+		"iS": 7509,
+		"oA": 0,
+		"oAP": "\/docs\/vendors\/grunticon\/png\/shell-logo-pic-01.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -2389,6 +2511,23 @@
 		"sM": 0,
 		"sU": 0
 		},
+	"\/less\/partials\/components\/forms.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/partials\/components\/forms.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
 	"\/less\/partials\/components\/icons.less": {
 		"aP": 0,
 		"bl": 0,
@@ -2610,6 +2749,23 @@
 		"sM": 0,
 		"sU": 0
 		},
+	"\/less\/partials\/layout\/section3.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/less\/partials\/layout\/section3.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
 	"\/less\/partials\/reset.less": {
 		"aP": 0,
 		"bl": 0,
@@ -2645,8 +2801,8 @@
 		"sU": 0
 		},
 	"\/less\/style.less": {
-		"aP": 0,
-		"bl": 0,
+		"aP": 1,
+		"bl": 1,
 		"dJ": 0,
 		"ft": 1,
 		"ie": 1,
@@ -2654,7 +2810,7 @@
 		"ma": 1,
 		"oA": 0,
 		"oAP": "\/dist\/css\/style.css",
-		"oF": 2,
+		"oF": 3,
 		"oS": 0,
 		"rU": 0,
 		"sI": 0,

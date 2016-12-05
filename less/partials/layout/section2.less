@@ -1,8 +1,42 @@
+/*Section 2*/
 
 
 /* Tarif */
 
-#tarif{
+#tarif {
     background-color: @tarifsectionBg;
     padding-bottom: 50px;
+    margin-top: -3.3px;
+    position: relative;
+    .tarif-text {
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+    .tarif-form-form-group {
+        margin-right: 30px;
+        position: relative;
+
+    }
+    .tarif-form-dropdown-list {
+
+        position: absolute;
+        top: 40px;
+        background-color: @sf-white;
+        z-index: @drop-down-list-zindex;
+        width: 242px;
+        ul {
+            padding-left: 0;
+            li {
+                list-style-type: none;
+                text-align: left;
+                padding: 10px;
+                border-bottom: solid 1px @sf-border-grey;
+            }
+        }
+    }
 }
+
+.display-list{
+    display:none
+}
+

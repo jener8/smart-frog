@@ -1,52 +1,61 @@
 /*@googlefonts*/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 
-/* Icon Font setup in project */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900');
+
+
+/* Font setup in project */
+
+@font-face  {
+  font-family: 'futura-pt';
+  src: url('../../../docs/vendors/futurapt/futura-t-bold.ttf');
+}
+
 
 body {
   font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
   line-height: 26px;
 }
 
-/*Section1 Headline */
-.headline-wrap{
+/*Nav*/
 
-  h3{
+
+
+.shell-logo-text{
+  font-family: "futura-pt",sans-serif;
+  font-size: 25px;
+  color: @sf-dark-red;
+}
+
+/*Section1 Headline */
+
+  #headline-lead{
     font-size: 49.4px;
     margin: 0;
     color: @sf-orange;
     font-weight: 500;
-    line-height: 60px;
+    line-height:  58px!important;
+
   }
-}
+
 
 /*Section1 registerFormWrap */
 .registerFormWrap {
   text-align: center;
 
-  .round_inner_wrap {
+  .round-inner-wrap {
     position: relative;
     color: @sf-white;
     font-size: 18px;
+    font-weight: 600;
     line-height: 1.7;
 
     h2{
-    font-weight: 600;
+    font-weight:700;
     }
 
-    .icon-checkmark {
-      color: @sf-white;
-      font-size: 13px;
-      left: -2px;
-      position: relative;
-      font-weight: bold;
-      top: -2px;
 
-
-    }
     span {
-      font-weight: 500;
       left: 4px;
       position: relative;
       display: inline-block;
@@ -59,14 +68,51 @@ body {
 
 .strom-box-panel-body{
   font-size:29px;
-  color: @sf-deep-red;
+  color:@sf-dark-red;
+  font-weight: 700;
   font-weight: 600;
 }
 
 .strom-box-footer-feature{
-  font-size: 30px;
+  font-size: 28px;
   line-height: 40px;
 
+  span{
+    color:@sf-dark-red;
+    font-weight: 700;
+  }
 
+
+}
+
+/*Section2 tarif-text*/
+
+.tarif-text h4{
+  color: @sf-deep-red;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.form-control,
+.tarif-form-dropdown-list{
+  font-size: 18px;
+}
+
+.tarif-form-dropdown-list{
+  color: @sf-dark-grey;
+}
+.btn{
+  color: @sf-white;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/*Section3 Text */
+#text-section{
+  font-size: 13px;
+}
+/*footer*/
+.footer-bottom-ul{
+  font-size: 20px;
 }
 

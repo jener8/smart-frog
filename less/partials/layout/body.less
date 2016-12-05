@@ -2,4 +2,15 @@
 .mainWrap {
   max-width: @mainWrapWidth-desktop;
   min-height: 100vh;
+  background-color: @sf-white;
+  .sf-border-left-right(solid, 2px, @sf-border-grey);
+}
+
+
+@mainWrapWidth-desktop : 1402px;
+
+body, html{
+  width: 100vw;
+  width: 100%;
+  overflow-x: hidden;
 }

@@ -8,15 +8,18 @@
 	background-image: url('png/shell-logo-pic.png');
 	background-repeat: no-repeat;
 }
-/*
 
-.icon-plug {
-	background-image: url('png/plug.png');
+.icon-apple-app {
+	background-image: url('png/apple-app.png');
 	background-repeat: no-repeat;
 }
 
-.icon-plus {
-	background-image: url('png/plus.png');
+.icon-google-app {
+	background-image: url('png/google-app.png');
 	background-repeat: no-repeat;
 }
-*/
+
+.icon-drop-arrow {
+	background-image: url('png/drop-arrow.png');
+	background-repeat: no-repeat;
+}

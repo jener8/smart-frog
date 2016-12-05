@@ -5,7 +5,8 @@
     z-index: 10;
     width: 100%;
     height: 100%;
-    .headline_inner_wrap {
+
+    .headline-inner-wrap {
         max-width: 1175px;
         width: 1170px;
         .sf-padding(0px, 0px, 0px, 0px);
@@ -13,11 +14,11 @@
         .headline-wrap {
             position: absolute;
             top: 50px;
-            left: 85px;
+            left: 100px;
             background-color: @sf-transparent-white;
             .border-top-radius(7px);
             .border-bottom-radius(7px);
-            .sf-padding(16px, 25px, 20px, 25px);
+            .sf-padding(14px, 25px, 20px, 25px);
             width: 585px;
             height: 147px;
         }
@@ -25,22 +26,22 @@
     /* handy */
     .hand-wrap-container {
         position: absolute;
-        top: 231px;
+        top: 200px;
         left: 0px;
         .hand-wrap {
             position: absolute;
-            width: 358px;
-            height: 299px;
+            width: 388px;
+            height: 329px;
             background-image: @handy-sf-image;
             .sf-background(no-repeat, initial, initial, initial, initial, initial, initial, contain);
             z-index: @hand-wrap-zindex;
         }
         .screen {
             position: absolute;
-            top: 75px;
-            left: 60px;
-            width: 243px;
-            height: 136px;
+            top: 77px;
+            left: 62px;
+            width: 258px;
+            height: 161px;
             overflow-y: hidden;
             overflow-x: hidden;
             z-index: @screen-zindex;
@@ -50,22 +51,37 @@
                 position: absolute;
                 top: 0px;
                 left: 0px;
-                width: 243px;
-                height: 136px;
+                width: 273px;
+                height: 166px;
             }
         }
     }
+
+    /*app*/
+
+    .app{
+        position: absolute;
+        bottom: -15px;
+        left: 80px;
+
+        .app-feature{
+                display:inline-block;
+
+
+        }
+    }
+
     .cam-registerForm-wrap {
         position: absolute;
         bottom: 0px;
         left: auto;
-        right: 500px;
-        width: calc(201px + 242px);
-        height: calc(277px + 80px);
+        right: 520px;
+        width: calc(225px + 242px);
+        height: calc(280px + 80px);
         /* camera */
         .cam-wrap {
             position: absolute;
-            bottom: 0px;
+            bottom: 1.5px;
             left: 0;
             right: auto;
             z-index: @cam-wrap-zindex;
@@ -73,8 +89,8 @@
                 position: absolute;
                 bottom: 0px;
                 left: 0px;
-                width: 195px;
-                height: 250px;
+                width: 225px;
+                height: 280px;
                 background-image: @cam-sf-image;
                 .sf-background(no-repeat, initial, initial, initial, initial, initial, initial, contain);
             }
@@ -82,14 +98,14 @@
         .registerFormWrap {
             position: absolute;
             right: 45px;
-            top: 40px;
+            top: 10px;
             width: 250px;
             z-index: 1;
+
             .round-element {
                 margin-bottom: initial;
-                .sf-border-bottom(none;
-                initial;
-                initial);
+                .sf-border-bottom(none;initial;initial);
+
                 .inner-wrap {
                     .sf-margin(initial, initial, initial, initial);
                     .round_bg {
@@ -100,6 +116,11 @@
                         .sf-padding(20px, 20px, 20px, 20px);
                         width: 220px;
                         height: 220px;
+
+                        .round-inner-wrap{
+                            width: 150px;
+                            margin: 0 auto;
+                        }
                     }
                 }
             }
@@ -110,7 +131,7 @@
         position: absolute;
         width: @panel-width;
         top: 50px;
-        right: 85px;
+        right: 100px;
 
         .strom-box-panel-body {
             background-color: @sf-yellow;
@@ -127,10 +148,11 @@
                 .strom-box-image {
                     background-image: @box-sf-image;
                     .sf-background(no-repeat, initial, initial, initial, initial, initial, initial, contain);
-                    height: 160px;
-                    width: 150px;
+                    height: 140px;
+                    width: 130px;
                     display: inline-block;
                     margin-right: 10px;
+                    margin-top: 15px;
                 }
             }
         }
@@ -156,11 +178,29 @@
                 margin-bottom: 0;
 
 
-                span{
-                    color: @sf-deep-red;
-                }
             }
         }
     }
     }
+
+    .jumbotron-background{
+        height: 640px;
+        width: 100%;
+        display: block;
+        position: relative;
+        &:after{
+            content: " ";
+            opacity: 0.6;
+        height: 640px;
+        width: 100%;
+        background-image: @jumbotron-bg-image;
+        .sf-background(no-repeat, initial, initial, initial, initial, initial, initial, cover);
+            position: absolute;
+            z-index: -1;
+        }
+
+    }
 }
+
+
+
