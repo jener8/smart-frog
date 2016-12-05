@@ -9,38 +9,6 @@
 	],
 "creatorBuild": "25444",
 "files": {
-	"\/App Stores\/apple_Zeichenfläche 1.png": {
-		"ft": 32768,
-		"iS": 3592,
-		"oA": 0,
-		"oAP": "\/App Stores\/apple_Zeichenfläche 1.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/App Stores\/apple_Zeichenfläche 1@2x.png": {
-		"ft": 32768,
-		"iS": 7761,
-		"oA": 0,
-		"oAP": "\/App Stores\/apple_Zeichenfläche 1@2x.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/App Stores\/google_Zeichenfläche 1.png": {
-		"ft": 32768,
-		"iS": 5914,
-		"oA": 0,
-		"oAP": "\/App Stores\/google_Zeichenfläche 1.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/App Stores\/google_Zeichenfläche 1@2x.png": {
-		"ft": 32768,
-		"iS": 12898,
-		"oA": 0,
-		"oAP": "\/App Stores\/google_Zeichenfläche 1@2x.png",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/dist\/css\/style.css": {
 		"aP": 0,
 		"bl": 0,
@@ -812,10 +780,10 @@
 		"oF": 0,
 		"opt": 1
 		},
-	"\/docs\/index.html": {
+	"\/docs\/old-index.html": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/docs\/index.html",
+		"oAP": "\/docs\/old-index.html",
 		"oF": 0
 		},
 	"\/docs\/vendors\/fontello\/config.json": {
@@ -1051,6 +1019,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/docs\/vendors\/grunticon\/preview.html",
+		"oF": 0
+		},
+	"\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/index.html",
 		"oF": 0
 		},
 	"\/less\/bootstrap\/.csscomb.json": {

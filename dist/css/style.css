@@ -6971,6 +6971,7 @@ body {
   font-size: 30px;
   right: 10px;
   top: 16px;
+  background-image: url(../../../docs/assets/img/drop-arrow.svg);
 }
 @font-face {
   font-family: 'fontello';
@@ -7318,7 +7319,7 @@ src: url('../font/fontello.svg?67936650#fontello') format('svg');
 }
 .navbar .container {
   padding-right: 0;
-  width: 1286px;
+  width: 1315px;
 }
 .navbar .container .icon-smartfrog-logo {
   width: 235px;
@@ -7330,6 +7331,8 @@ src: url('../font/fontello.svg?67936650#fontello') format('svg');
   display: inline-block;
   width: 300px;
   text-align: right;
+  vertical-align: text-bottom;
+  line-height: 0;
   padding-right: 20px;
 }
 .navbar .container #shell-logo .icon-shell-logo-pic {
@@ -7380,6 +7383,7 @@ html {
   opacity: 0.6;
   z-index: -1;
 }
+/*Server*/
 /*Lokal*/
 @media only screen and (min-width: 320px) {
   .hand-wrap {
